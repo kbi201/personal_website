@@ -1,27 +1,29 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Progress } from "@/components/ui/progress";
 
 const programmingSkills = [
-  { name: "Python", level: 95, color: "bg-primary" },
-  { name: "JavaScript", level: 80, color: "bg-accent" },
-  { name: "C++", level: 70, color: "bg-green-500" },
-  { name: "SQL", level: 85, color: "bg-purple-500" },
+  { name: "Python", icon: "fab fa-python", color: "text-blue-500" },
+  { name: "JavaScript", icon: "fab fa-js", color: "text-yellow-500" },
+  { name: "C++", icon: "fas fa-code", color: "text-blue-600" },
+  { name: "SQL", icon: "fas fa-database", color: "text-orange-500" },
+  { name: "Java", icon: "fab fa-java", color: "text-red-500" },
+  { name: "Haskell", icon: "fas fa-lambda", color: "text-purple-500" },
+  { name: "Prolog", icon: "fas fa-brain", color: "text-green-600" },
 ];
 
 const mlSkills = [
-  "scikit-learn",
-  "TensorFlow",
-  "PyTorch",
-  "HuggingFace",
-  "NLTK",
+  { name: "scikit-learn", icon: "fas fa-chart-line" },
+  { name: "TensorFlow", icon: "fas fa-network-wired" },
+  { name: "PyTorch", icon: "fas fa-fire" },
+  { name: "HuggingFace", icon: "fas fa-robot" },
+  { name: "NLTK", icon: "fas fa-language" },
 ];
 
 const tools = [
-  { name: "Git", level: "Proficient", color: "bg-green-100 text-green-800" },
-  { name: "Linux", level: "Advanced", color: "bg-blue-100 text-blue-800" },
-  { name: "VS Code", level: "Expert", color: "bg-purple-100 text-purple-800" },
-  { name: "Jupyter", level: "Expert", color: "bg-orange-100 text-orange-800" },
+  { name: "Git", icon: "fab fa-git-alt", color: "text-orange-600" },
+  { name: "Linux", icon: "fab fa-linux", color: "text-black" },
+  { name: "VS Code", icon: "fas fa-code", color: "text-blue-500" },
+  { name: "Jupyter", icon: "fas fa-book", color: "text-orange-500" },
+  { name: "Zoom", icon: "fas fa-video", color: "text-blue-400" },
 ];
 
 const cybersecuritySkills = [
@@ -32,8 +34,17 @@ const cybersecuritySkills = [
 ];
 
 const frameworks = [
-  { name: "Django", level: 85 },
-  { name: "BERT/Transformers", level: 90 },
+  { name: "Django", icon: "fas fa-globe" },
+  { name: "BERT/Transformers", icon: "fas fa-language" },
+];
+
+const concepts = [
+  { name: "Machine Learning", icon: "fas fa-brain" },
+  { name: "Sentiment Analysis", icon: "fas fa-heart" },
+  { name: "Data Preprocessing", icon: "fas fa-filter" },
+  { name: "Model Evaluation", icon: "fas fa-chart-bar" },
+  { name: "Optimization", icon: "fas fa-cogs" },
+  { name: "Ensemble Methods", icon: "fas fa-layer-group" },
 ];
 
 export default function Skills() {
@@ -55,16 +66,11 @@ export default function Skills() {
                 <i className="fas fa-code text-primary text-2xl mr-4"></i>
                 <h3 className="text-xl font-semibold text-slate-800">Programming Languages</h3>
               </div>
-              <div className="space-y-4">
+              <div className="grid grid-cols-2 gap-3">
                 {programmingSkills.map((skill) => (
-                  <div key={skill.name}>
-                    <div className="flex justify-between mb-2">
-                      <span className="text-slate-700">{skill.name}</span>
-                      <span className="text-sm text-slate-500">
-                        {skill.level >= 90 ? "Expert" : skill.level >= 80 ? "Advanced" : "Intermediate"}
-                      </span>
-                    </div>
-                    <Progress value={skill.level} className="h-2" />
+                  <div key={skill.name} className="flex items-center p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors">
+                    <i className={`${skill.icon} ${skill.color} text-xl mr-3`}></i>
+                    <span className="text-slate-700 font-medium">{skill.name}</span>
                   </div>
                 ))}
               </div>
@@ -80,9 +86,9 @@ export default function Skills() {
               </div>
               <div className="space-y-3">
                 {mlSkills.map((skill) => (
-                  <div key={skill} className="flex items-center justify-between p-2 bg-slate-50 rounded">
-                    <span className="text-slate-700">{skill}</span>
-                    <i className="fas fa-star text-yellow-500"></i>
+                  <div key={skill.name} className="flex items-center p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors">
+                    <i className={`${skill.icon} text-primary text-lg mr-3`}></i>
+                    <span className="text-slate-700 font-medium">{skill.name}</span>
                   </div>
                 ))}
               </div>
@@ -98,9 +104,9 @@ export default function Skills() {
               </div>
               <div className="space-y-3">
                 {tools.map((tool) => (
-                  <div key={tool.name} className="flex items-center justify-between p-2 bg-slate-50 rounded">
-                    <span className="text-slate-700">{tool.name}</span>
-                    <Badge className={tool.color}>{tool.level}</Badge>
+                  <div key={tool.name} className="flex items-center p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors">
+                    <i className={`${tool.icon} ${tool.color} text-lg mr-3`}></i>
+                    <span className="text-slate-700 font-medium">{tool.name}</span>
                   </div>
                 ))}
               </div>
@@ -116,9 +122,9 @@ export default function Skills() {
               </div>
               <div className="space-y-3">
                 {cybersecuritySkills.map((skill) => (
-                  <div key={skill.name} className="flex items-center p-2 bg-red-50 rounded">
-                    <i className={`${skill.icon} text-red-500 mr-3`}></i>
-                    <span className="text-slate-700">{skill.name}</span>
+                  <div key={skill.name} className="flex items-center p-3 bg-red-50 rounded-lg hover:bg-red-100 transition-colors">
+                    <i className={`${skill.icon} text-red-500 text-lg mr-3`}></i>
+                    <span className="text-slate-700 font-medium">{skill.name}</span>
                   </div>
                 ))}
               </div>
@@ -132,14 +138,29 @@ export default function Skills() {
                 <i className="fas fa-layer-group text-primary text-2xl mr-4"></i>
                 <h3 className="text-xl font-semibold text-slate-800">Frameworks</h3>
               </div>
-              <div className="space-y-4">
+              <div className="space-y-3">
                 {frameworks.map((framework) => (
-                  <div key={framework.name}>
-                    <div className="flex justify-between mb-2">
-                      <span className="text-slate-700">{framework.name}</span>
-                      <span className="text-sm text-slate-500">Advanced</span>
-                    </div>
-                    <Progress value={framework.level} className="h-2" />
+                  <div key={framework.name} className="flex items-center p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors">
+                    <i className={`${framework.icon} text-primary text-lg mr-3`}></i>
+                    <span className="text-slate-700 font-medium">{framework.name}</span>
+                  </div>
+                ))}
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Concepts & Methods */}
+          <Card>
+            <CardContent className="p-6">
+              <div className="flex items-center mb-6">
+                <i className="fas fa-lightbulb text-primary text-2xl mr-4"></i>
+                <h3 className="text-xl font-semibold text-slate-800">Concepts & Methods</h3>
+              </div>
+              <div className="space-y-3">
+                {concepts.map((concept) => (
+                  <div key={concept.name} className="flex items-center p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors">
+                    <i className={`${concept.icon} text-primary text-lg mr-3`}></i>
+                    <span className="text-slate-700 font-medium">{concept.name}</span>
                   </div>
                 ))}
               </div>
@@ -147,7 +168,7 @@ export default function Skills() {
           </Card>
 
           {/* Certifications */}
-          <Card>
+          <Card className="md:col-span-2 lg:col-span-1">
             <CardContent className="p-6">
               <div className="flex items-center mb-6">
                 <i className="fas fa-certificate text-primary text-2xl mr-4"></i>
@@ -155,7 +176,7 @@ export default function Skills() {
               </div>
               <div className="space-y-3">
                 <div className="flex items-center p-3 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-lg border-l-4 border-primary">
-                  <i className="fas fa-shield-alt text-primary mr-3"></i>
+                  <i className="fas fa-shield-alt text-primary text-lg mr-3"></i>
                   <div>
                     <p className="text-slate-700 font-medium">Fundamentals of Cybersecurity</p>
                     <p className="text-sm text-slate-500">EDU-102</p>
