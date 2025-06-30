@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import profileImage from "@assets/pfp.png";
 
 export default function Hero() {
   const scrollToContact = () => {
@@ -18,9 +19,11 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <div className="w-48 h-48 mx-auto mb-8 rounded-full bg-gradient-to-br from-primary to-accent p-1">
-            <div className="w-full h-full rounded-full bg-slate-200 flex items-center justify-center">
-              <i className="fas fa-user text-6xl text-slate-400"></i>
-            </div>
+            <img 
+              src={profileImage} 
+              alt="Kelly Irahola" 
+              className="w-full h-full rounded-full object-cover"
+            />
           </div>
           
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-800 mb-6">
