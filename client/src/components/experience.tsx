@@ -17,6 +17,21 @@ const experiences = [
   },
   {
     id: 2,
+    title: "Events Assistant",
+    company: "University of Exeter Student Guild",
+    period: "Sep 2024 – June 2025",
+    description: [
+      "Facilitated various events to enhance student community engagement",
+      "Strengthened public speaking and organizational skills",
+    ],
+    iconClass: "fas fa-calendar-alt",
+    iconColor: "text-green-500",
+    bgColor: "bg-green-500",
+    companyColor: "text-green-500",
+    side: "right",
+  },
+  {
+    id: 3,
     title: "Lead Teaching Assistant",
     company: "Girls Who Code",
     period: "May 2024 – July 2024",
@@ -29,21 +44,6 @@ const experiences = [
     iconColor: "text-accent",
     bgColor: "bg-accent",
     companyColor: "text-accent",
-    side: "right",
-  },
-  {
-    id: 3,
-    title: "Events Assistant",
-    company: "University of Exeter Student Guild",
-    period: "Sep 2024 – June 2025",
-    description: [
-      "Facilitated various events to enhance student community engagement",
-      "Strengthened public speaking and organizational skills",
-    ],
-    iconClass: "fas fa-calendar-alt",
-    iconColor: "text-green-500",
-    bgColor: "bg-green-500",
-    companyColor: "text-green-500",
     side: "left",
   },
   {
