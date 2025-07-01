@@ -99,9 +99,16 @@ This is a full-stack web application built as a personal portfolio website for K
 - **API Routes**: Backend requires Node.js runtime environment
 - **Database**: PostgreSQL database connection required for persistence features
 
+## Recent Changes
+- June 30, 2025: Updated skills section design - removed progress bars, added Java/Haskell/Prolog languages
+- June 30, 2025: Added current Girls Who Code Lead TA position (June 2025-Present) with 70+ students
+- June 30, 2025: Reordered experience timeline to chronological order
+- June 30, 2025: Added personal profile picture (pfp.png) to hero section
+
 ## Changelog
-- June 30, 2025. Initial setup
+- June 30, 2025: Initial portfolio setup with complete sections and responsive design
 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+Design preferences: Clean card layouts without progress bars for skills display.
