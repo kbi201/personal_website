@@ -100,6 +100,8 @@ This is a full-stack web application built as a personal portfolio website for K
 - **Database**: PostgreSQL database connection required for persistence features
 
 ## Recent Changes
+- January 1, 2025: Added Project Highlight carousel with tech stack icons and enhanced project cards
+- January 1, 2025: Configured Vercel deployment with vercel.json and README instructions
 - June 30, 2025: Updated skills section design - removed progress bars, added Java/Haskell/Prolog languages
 - June 30, 2025: Added current Girls Who Code Lead TA position (June 2025-Present) with 70+ students
 - June 30, 2025: Reordered experience timeline to chronological order
