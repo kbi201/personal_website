@@ -10,8 +10,7 @@ export default function Hero() {
   };
 
   const downloadCV = () => {
-    // In a real implementation, this would link to an actual CV file
-    window.open("/cv-kelly-irahola.pdf", "_blank");
+    window.open("/cv_kelly_2025.docx", "_blank");
   };
 
   return (
