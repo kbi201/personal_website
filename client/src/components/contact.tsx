@@ -75,7 +75,7 @@ export default function Contact() {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid md:grid-cols-1 gap-12">
           <div>
             <h3 className="text-2xl font-semibold text-slate-800 mb-6">Contact Information</h3>
             <div className="space-y-4">
