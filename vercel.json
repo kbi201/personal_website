@@ -4,7 +4,7 @@
   "framework": "vite",
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/((?!cv-kelly-irahola\\.pdf$).*)",
       "destination": "/index.html"
     }
   ]
