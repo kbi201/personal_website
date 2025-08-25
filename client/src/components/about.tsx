@@ -25,15 +25,24 @@ export default function About() {
           <div>
             <h3 className="text-2xl font-semibold text-slate-800 mb-6">My Journey</h3>
             <p className="text-slate-600 mb-6 leading-relaxed">
-              As a Computer Science MSci graduate from the University of Exeter with honors, I bring a strong 
-              foundation in machine learning, natural language processing, and cybersecurity. My academic journey 
-              has been enriched by hands-on projects ranging from consumer behavior prediction to polarization 
-              detection using advanced NLP techniques.
+              As a Computer Science Masters of Science graduate from the University of Exeter, England, with honors, I bring a strong 
+              foundation in machine learning, natural language processing (NLP), and cybersecurity. My academic journey 
+              has been enriched by hands-on projects ranging from consumer behavior prediction and data visualization, to polarization 
+              detection and lexicon creation using NLP techniques.
             </p>
             <p className="text-slate-600 mb-6 leading-relaxed">
-              Beyond technical skills, I'm passionate about education and community building. My experience as 
-              Lead TA at Girls Who Code, teaching 40+ students Python programming, reflects my commitment to 
-              making technology accessible and inclusive.
+            I am adaptable to different environments, have a global perspective, and intercultural networking skills. During and 
+            before my school years I lived in 7 countries, such as Venezuela, Argentina, Thailand, Indonesia, Malaysia, the United Kingdom, and 
+            graduated in Mexico with my International Baccalaureate. I lived in South East Asia for 16 years. Additionally, 
+            I have done community work with both Habitat for Humanity and my schools in different countries including Indonesia, Sri 
+            Lanka, Myanmar, and the Philippines. I have cultivated cultural sensitivity and adaptability, which I believe are crucial in today's 
+            interconnected, globalized world.
+              </p>
+            <p className="text-slate-600 mb-6 leading-relaxed">
+              Beyond technical skills, I'm passionate about making technology accessible. My experience as a
+              Lead Teaching Assistant with Girls Who Code (GWC) for two consecutive summers, teaching a total of 100+ students 
+              JavaScript programming and game design principles, reflects my commitment to making technology not only accessible, but also inclusive--
+              addressing the current gender gap in technology.
             </p>
             <div className="flex flex-wrap gap-2">
               {skills.map((skill) => (
@@ -51,7 +60,7 @@ export default function About() {
                   <i className="fas fa-graduation-cap text-primary text-2xl mr-4"></i>
                   <div>
                     <h4 className="font-semibold text-slate-800">Education</h4>
-                    <p className="text-slate-600">MSci Computer Science with Honors</p>
+                    <p className="text-slate-600">Masters of Science in Computer Science with Honors</p>
                   </div>
                 </div>
                 <p className="text-slate-600">University of Exeter, United Kingdom</p>

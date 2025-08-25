@@ -23,7 +23,7 @@ export default function Footer() {
         <div className="text-center">
           <h3 className="text-2xl font-bold mb-4">Kelly B. Irahola Vallejos</h3>
           <p className="text-slate-300 mb-6">
-            Computer Science Graduate | Machine Learning Enthusiast | Tech Educator
+            Computer Science Graduate | Adept in Machine Learning | Tech Educator
           </p>
           
           <div className="flex justify-center space-x-6 mb-8">

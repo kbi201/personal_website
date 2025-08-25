@@ -3,9 +3,9 @@ const experiences = [
     id: 1,
     title: "Lead Teaching Assistant",
     company: "Girls Who Code",
-    period: "June 2025 – Present",
+    period: "June 2025 – August 2025",
     description: [
-      "Currently leading instructional sessions for 70+ students in Python programming",
+      "Lead instructional sessions for 70+ students in JavaScript programming, teaching fundamentals of both programming and game design",
       "Expanded program reach with significantly increased class sizes",
       "Continuing collaboration with industry partners for STEM outreach",
     ],
@@ -36,7 +36,7 @@ const experiences = [
     company: "Girls Who Code",
     period: "May 2024 – July 2024",
     description: [
-      "Led instructional sessions for 40+ students in Python programming",
+      "Led instructional sessions for 40+ students in JavaScript programming",
       "Collaborated with Bank of America and Synchrony for impactful outreach",
       "Provided live debugging support and managed breakout rooms",
     ],
