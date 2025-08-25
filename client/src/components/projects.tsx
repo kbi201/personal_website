@@ -149,7 +149,7 @@ export default function Projects() {
                         <span>{project.date}</span>
                         <div className="flex items-center">
                           <i className="fas fa-arrow-right text-primary mr-1"></i>
-                          <span className="text-primary font-medium">View Details</span>
+                          {/* <span className="text-primary font-medium">View Details</span> */} 
                         </div>
                       </div>
                     </CardContent>
