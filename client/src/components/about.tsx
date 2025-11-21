@@ -16,7 +16,7 @@ export default function About() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-800 mb-4">About Me</h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Passionate computer scientist with expertise in machine learning, NLP, and cybersecurity, 
+            Passionate computer scientist with expertise in machine learning, natural language processing, software engineering, and cybersecurity, 
             committed to creating impactful solutions and fostering inclusive tech education.
           </p>
         </div>

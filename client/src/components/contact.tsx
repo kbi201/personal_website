@@ -42,8 +42,8 @@ export default function Contact() {
     {
       icon: "fas fa-envelope",
       title: "Email",
-      value: "kellyblancairahola@hotmail.com",
-      href: "mailto:kellyblancairahola@hotmail.com",
+      value: "kbiv23@outlook.com",
+      href: "mailto:kbiv23@outlook.com",
     },
     {
       icon: "fas fa-phone",
@@ -71,7 +71,7 @@ export default function Contact() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-800 mb-4">Get In Touch</h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            I'm always interested in new opportunities and collaborations. Let's connect!
+            I'm always interested in new opportunities and collaborations. Let's connect on LinkedIn, and have a chat! ☕️
           </p>
         </div>
         

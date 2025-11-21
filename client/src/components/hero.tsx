@@ -63,27 +63,6 @@ export default function Hero() {
               <i className="fas fa-download mr-2"></i>
               Download CV
             </Button>
-            <Button 
-              as="a" 
-              href="https://www.linkedin.com/in/kelly-b-irahola-vallejos/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="bg-blue-600 text-white hover:bg-blue-700 transition-all duration-200 transform hover:scale-105"
-            >
-              <i className="fab fa-linkedin mr-2"></i>
-              LinkedIn Profile
-            </Button>
-            <Button 
-              as="a" 
-              href="kbiv23@outlook.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="bg-green-600 text-white hover:bg-green-700 transition-all duration-200 transform hover:scale-105"
-            >
-              <i className="fas fa-envelope mr-2"></i>
-              Email Me
-            </Button>
-
           </div>
         </div>
       </div>
