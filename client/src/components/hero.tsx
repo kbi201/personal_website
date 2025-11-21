@@ -10,7 +10,7 @@ export default function Hero() {
   };
 
   const downloadCV = () => {
-    window.open("/cv_kelly_2025.pdf", "_blank");
+    window.open("/cv_kelly_2025_ver2.pdf", "_blank");
   };
 
   return (
@@ -30,7 +30,7 @@ export default function Hero() {
           </h1>
           
           <p className="text-xl sm:text-2xl text-slate-600 mb-8 max-w-3xl mx-auto">
-            Computer Science MSci Graduate specializing in Machine Learning, NLP, and Cybersecurity
+            Computer Science MSci Graduate specializing in Machine Learning, Software Engineering, and Cybersecurity
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
@@ -40,7 +40,7 @@ export default function Hero() {
             </div>
             <div className="flex items-center text-slate-600">
               <i className="fas fa-graduation-cap mr-2"></i>
-              <span>University of Exeter</span>
+              <span>University of Exeter, United Kingdom</span>
             </div>
             <div className="flex items-center text-slate-600">
               <i className="fas fa-calendar mr-2"></i>
@@ -63,6 +63,27 @@ export default function Hero() {
               <i className="fas fa-download mr-2"></i>
               Download CV
             </Button>
+            <Button 
+              as="a" 
+              href="https://www.linkedin.com/in/kelly-b-irahola-vallejos/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-blue-600 text-white hover:bg-blue-700 transition-all duration-200 transform hover:scale-105"
+            >
+              <i className="fab fa-linkedin mr-2"></i>
+              LinkedIn Profile
+            </Button>
+            <Button 
+              as="a" 
+              href="kbiv23@outlook.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-green-600 text-white hover:bg-green-700 transition-all duration-200 transform hover:scale-105"
+            >
+              <i className="fas fa-envelope mr-2"></i>
+              Email Me
+            </Button>
+
           </div>
         </div>
       </div>
