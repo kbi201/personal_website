@@ -10,7 +10,7 @@ export default function Hero() {
   };
 
   const downloadCV = () => {
-    window.open("/cv_kelly_2025_ver2.pdf", "_blank");
+    window.open("/kellyirahola_resume3.pdf", "_blank");
   };
 
   return (

@@ -4,7 +4,7 @@
   "framework": "vite",
   "rewrites": [
     {
-      "source": "/((?!cv_kelly_2025_ver2\\.pdf$).*)",
+      "source": "/((?!kellyirahola_resume3\\.pdf$).*)",
       "destination": "/index.html"
     }
   ]

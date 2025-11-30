@@ -6,8 +6,8 @@ export default function About() {
   const languages = [
     { name: "English", level: "Fluent" },
     { name: "Spanish", level: "Fluent" },
-    { name: "Chinese", level: "Limited" },
-    { name: "French", level: "Elementary" },
+    { name: "Chinese", level: "Limited" }
+
   ];
 
   return (
