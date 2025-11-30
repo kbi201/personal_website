@@ -35,7 +35,8 @@ export default function About() {
             before my school years I lived in 7 countries, such as Venezuela, Argentina, Thailand, Indonesia, Malaysia, the United Kingdom, and 
             graduated in Mexico with my International Baccalaureate. I lived in South East Asia for 16 years. Additionally, 
             I have done community work with both Habitat for Humanity and my schools in different countries including Indonesia, Sri 
-            Lanka, Myanmar, and the Philippines. I have cultivated cultural sensitivity and adaptability, which I believe are crucial in today's 
+            Lanka, Myanmar, and the Philippines, where we helped restore local schools, built healthcare facilities, and wildlife conservation. 
+            I have cultivated cultural sensitivity and adaptability, which I believe are crucial in today's 
             interconnected, globalized world.
               </p>
             <p className="text-slate-600 mb-6 leading-relaxed">
